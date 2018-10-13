@@ -1,5 +1,5 @@
 class NotesController < ApplicationController
-  before_action :authenticate_user!, only: :new
+  before_action :authenticate_user!, only: :create
 
   before_action :set_note, only: [:show, :edit, :update, :destroy]
 
@@ -35,7 +35,7 @@ class NotesController < ApplicationController
         format.html { redirect_to :root, notice: 'Note was successfully created.' }
         format.json { render :show, status: :created, location: @note }
       else
-        format.html { render :new }
+        format.html { render :root }
         format.json { render json: @note.errors, status: :unprocessable_entity }
       end
     end
