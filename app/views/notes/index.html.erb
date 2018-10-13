@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Notes</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Text</th>
+      <th>User</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @notes.each do |note| %>
+      <tr>
+        <td><%= note.text %></td>
+        <td><%= note.user.username %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= render 'form', note: @note %>

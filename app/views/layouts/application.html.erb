@@ -10,6 +10,9 @@
   </head>
 
   <body>
+      <%= 'User: ' + current_user.username if current_user %>
+      <%= link_to "Logout", destroy_user_session_path if current_user %>
+      <%= link_to :login unless current_user %>
     <%= yield %>
   </body>
 </html>
