@@ -6,7 +6,7 @@ Instruccions:
 
 * In the index page you can se all the notes and the author.
 
-* To create a note you slould be logged in
+* To create a note you should be logged in
 
 * Sign in is free. You should introduce ans username, email and password ... voilà
 
