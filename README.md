@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application is only an example. Isn't ready for production.
 
-Things you may want to cover:
+Instruccions:
 
-* Ruby version
+* In the index page you can se all the notes and the author.
 
-* System dependencies
+* To create a note you slould be logged in
 
-* Configuration
+* Sign in is free. You should introduce ans username, email and password ... voilà
 
-* Database creation
+* Don't need e-mail verification
 
-* Database initialization
+* You can logout anytime
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+_Author:_ *Ricardo Luis Mender - 2018*
