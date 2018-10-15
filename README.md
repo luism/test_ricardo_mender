@@ -8,7 +8,7 @@ Instruccions:
 
 * To create a note you should be logged in
 
-* Sign in is free. You should introduce ans username, email and password ... voilà
+* Sign in is free. You should introduce and username, email, password ... and voilà Your'e in the awesome Notes Web System
 
 * Don't need e-mail verification
 
